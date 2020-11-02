@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+<!--    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">-->
+<!--    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">-->
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body class="grey darken-4 blue-text text-lighten-4">
+    <div class="container">
+      <h1 class="title">ToDo</h1>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card red lighten-1">
+            <div class="card-content white-text">
+              <span class="card-title">Klavagonki</span>
+              <p>
+                <span class="progress-time-num-goal">30</span><span class="progress-time-str-goal">m</span>
+              </p>
+              <span class="progress-line red lighten-4"><span class="progress teal accent-4"></span></span>
+            </div>
+            <div class="card-action">
+              <a class="btn-start waves-effect waves-light btn blue darken-3">start</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card red lighten-1">
+            <div class="card-content white-text">
+              <span class="card-title">LearnJS</span>
+              <p>
+                <span class="progress-time-num-goal">1</span><span class="progress-time-str-goal">h</span>
+              </p>
+              <span class="progress-line red lighten-4"><span class="progress teal accent-4"></span></span>
+            </div>
+            <div class="card-action">
+              <a class="btn-start waves-effect waves-light btn blue darken-3">start</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card red lighten-1">
+            <div class="card-content white-text">
+              <span class="card-title">Codewars</span>
+              <p>
+                <span class="progress-time-num-goal">1</span><span class="progress-time-str-goal">h</span>
+              </p>
+              <span class="progress-line red lighten-4"><span class="progress teal accent-4"></span></span>
+            </div>
+            <div class="card-action">
+              <a class="btn-start waves-effect waves-light btn blue darken-3">start</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card red lighten-1">
+            <div class="card-content white-text">
+              <span class="card-title">PHPStorm</span>
+              <p>
+                <span class="progress-time-num-goal">30</span><span class="progress-time-str-goal">m</span>
+              </p>
+              <span class="progress-line red lighten-4"><span class="progress teal accent-4"></span></span>
+            </div>
+            <div class="card-action">
+              <a class="btn-start waves-effect waves-light btn blue darken-3">start</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./renderer.js"></script>
+    <script src="./code.js"></script>
+    <script src="./node_modules/materialize-css/dist/js/materialize.js"></script>
+  </body>
+</html>
